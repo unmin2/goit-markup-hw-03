@@ -90,7 +90,6 @@ ul {
 }
 .main-nav {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
 }
 .site-nav {
   display: flex;
@@ -193,9 +192,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   padding: 12px 24px;
-
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
 }
 
 .buttons-list:hover,
@@ -317,6 +313,8 @@ ul {
   margin-right: auto;
   padding-left: 16px;
   margin-top: 0;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .list-cards {
   text-decoration: none;
